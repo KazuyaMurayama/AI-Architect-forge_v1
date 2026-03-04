@@ -1,167 +1,45 @@
 {
   "topics": {
-    "T032": {
-      "title": "AIエージェントとオーケストレーション",
-      "level": 1,
-      "level_name": "EXPOSED",
-      "first_learned": "2026-03-04",
-      "review_count": 0,
-      "quiz_scores": [],
-      "teach_completed": false,
-      "socratic_max_level": 0
-    },
-    "T067": {
-      "title": "AI導入ROI測定フレームワーク",
-      "level": 1,
-      "level_name": "EXPOSED",
-      "first_learned": "2026-03-04",
-      "review_count": 0,
-      "quiz_scores": [],
-      "teach_completed": false,
-      "socratic_max_level": 0
-    },
-    "T022": {
-      "title": "両利きの経営（Ambidexterity）",
-      "level": 1,
-      "level_name": "EXPOSED",
-      "first_learned": "2026-03-04",
-      "review_count": 0,
-      "quiz_scores": [],
-      "teach_completed": false,
-      "socratic_max_level": 0
-    },
-    "T058": {
-      "title": "人間-AI協働の設計原則",
-      "level": 1,
-      "level_name": "EXPOSED",
-      "first_learned": "2026-03-04",
-      "review_count": 0,
-      "quiz_scores": [],
-      "teach_completed": false,
-      "socratic_max_level": 0
-    },
-    "T041": {
-      "title": "変革管理の統合モデル",
-      "level": 1,
-      "level_name": "EXPOSED",
-      "first_learned": "2026-03-04",
-      "review_count": 0,
-      "quiz_scores": [],
-      "teach_completed": false,
-      "socratic_max_level": 0
-    }
+    "T021": { "title": "ダイナミックケイパビリティ", "level": 1, "level_name": "EXPOSED", "first_learned": "2026-03-04", "review_count": 0, "quiz_scores": [], "teach_completed": false, "socratic_max_level": 0 },
+    "T022": { "title": "両利きの経営（Ambidexterity）", "level": 1, "level_name": "EXPOSED", "first_learned": "2026-03-04", "review_count": 0, "quiz_scores": [], "teach_completed": false, "socratic_max_level": 0 },
+    "T025": { "title": "データドリブン意思決定（DDDM）", "level": 1, "level_name": "EXPOSED", "first_learned": "2026-03-04", "review_count": 0, "quiz_scores": [], "teach_completed": false, "socratic_max_level": 0 },
+    "T029": { "title": "リーンスタートアップと実験経営", "level": 1, "level_name": "EXPOSED", "first_learned": "2026-03-04", "review_count": 0, "quiz_scores": [], "teach_completed": false, "socratic_max_level": 0 },
+    "T031": { "title": "LLMアーキテクチャ基礎", "level": 1, "level_name": "EXPOSED", "first_learned": "2026-03-04", "review_count": 0, "quiz_scores": [], "teach_completed": false, "socratic_max_level": 0 },
+    "T032": { "title": "AIエージェントとオーケストレーション", "level": 1, "level_name": "EXPOSED", "first_learned": "2026-03-04", "review_count": 0, "quiz_scores": [], "teach_completed": false, "socratic_max_level": 0 },
+    "T033": { "title": "RAGシステム設計と最適化", "level": 1, "level_name": "EXPOSED", "first_learned": "2026-03-04", "review_count": 0, "quiz_scores": [], "teach_completed": false, "socratic_max_level": 0 },
+    "T034": { "title": "プロンプトエンジニアリングの科学", "level": 1, "level_name": "EXPOSED", "first_learned": "2026-03-04", "review_count": 0, "quiz_scores": [], "teach_completed": false, "socratic_max_level": 0 },
+    "T037": { "title": "AIガバナンスと品質管理", "level": 1, "level_name": "EXPOSED", "first_learned": "2026-03-04", "review_count": 0, "quiz_scores": [], "teach_completed": false, "socratic_max_level": 0 },
+    "T041": { "title": "変革管理の統合モデル", "level": 1, "level_name": "EXPOSED", "first_learned": "2026-03-04", "review_count": 0, "quiz_scores": [], "teach_completed": false, "socratic_max_level": 0 },
+    "T054": { "title": "デザイン思考×AI（人間中心AI）", "level": 1, "level_name": "EXPOSED", "first_learned": "2026-03-04", "review_count": 0, "quiz_scores": [], "teach_completed": false, "socratic_max_level": 0 },
+    "T058": { "title": "人間-AI協働の設計原則", "level": 1, "level_name": "EXPOSED", "first_learned": "2026-03-04", "review_count": 0, "quiz_scores": [], "teach_completed": false, "socratic_max_level": 0 },
+    "T067": { "title": "AI導入ROI測定フレームワーク", "level": 1, "level_name": "EXPOSED", "first_learned": "2026-03-04", "review_count": 0, "quiz_scores": [], "teach_completed": false, "socratic_max_level": 0 },
+    "T068": { "title": "AIプロダクトマネジメント", "level": 1, "level_name": "EXPOSED", "first_learned": "2026-03-04", "review_count": 0, "quiz_scores": [], "teach_completed": false, "socratic_max_level": 0 },
+    "T071": { "title": "技術選定フレームワーク", "level": 1, "level_name": "EXPOSED", "first_learned": "2026-03-04", "review_count": 0, "quiz_scores": [], "teach_completed": false, "socratic_max_level": 0 }
   },
   "spaced_queue": [
-    {
-      "topic_id": "T032",
-      "concept": "オーケストレーション4パターン（Supervisor/Hierarchical/P2P/Event-Driven）",
-      "ease_factor": 2.5,
-      "interval_days": 1,
-      "repetitions": 0,
-      "next_review": "2026-03-05",
-      "last_score": null,
-      "bloom_level": "remember"
-    },
-    {
-      "topic_id": "T032",
-      "concept": "エージェントの3要素（知覚・推論・行動）と状態管理3層",
-      "ease_factor": 2.5,
-      "interval_days": 1,
-      "repetitions": 0,
-      "next_review": "2026-03-05",
-      "last_score": null,
-      "bloom_level": "understand"
-    },
-    {
-      "topic_id": "T032",
-      "concept": "自律度スペクトラム（in/on/out-of-the-loop）と段階的移行",
-      "ease_factor": 2.5,
-      "interval_days": 1,
-      "repetitions": 0,
-      "next_review": "2026-03-05",
-      "last_score": null,
-      "bloom_level": "apply"
-    },
-    {
-      "topic_id": "T067",
-      "concept": "ROI測定Three-Pillar Framework（財務/業務効率/戦略ポジション）",
-      "ease_factor": 2.5,
-      "interval_days": 1,
-      "repetitions": 0,
-      "next_review": "2026-03-05",
-      "last_score": null,
-      "bloom_level": "remember"
-    },
-    {
-      "topic_id": "T067",
-      "concept": "AI投資成功率5% vs KPI達成率80%の構造的矛盾",
-      "ease_factor": 2.5,
-      "interval_days": 1,
-      "repetitions": 0,
-      "next_review": "2026-03-05",
-      "last_score": null,
-      "bloom_level": "analyze"
-    },
-    {
-      "topic_id": "T022",
-      "concept": "両利きの3類型（構造的・文脈的・時間的）と設計原則",
-      "ease_factor": 2.5,
-      "interval_days": 1,
-      "repetitions": 0,
-      "next_review": "2026-03-05",
-      "last_score": null,
-      "bloom_level": "remember"
-    },
-    {
-      "topic_id": "T022",
-      "concept": "探索と活用のテンション管理メカニズム",
-      "ease_factor": 2.5,
-      "interval_days": 1,
-      "repetitions": 0,
-      "next_review": "2026-03-05",
-      "last_score": null,
-      "bloom_level": "understand"
-    },
-    {
-      "topic_id": "T058",
-      "concept": "人間-AI補完性の2源泉（情報非対称・能力非対称）",
-      "ease_factor": 2.5,
-      "interval_days": 1,
-      "repetitions": 0,
-      "next_review": "2026-03-05",
-      "last_score": null,
-      "bloom_level": "understand"
-    },
-    {
-      "topic_id": "T058",
-      "concept": "AI協働の双刃の剣効果（生産性↑ × 内発的動機↓）",
-      "ease_factor": 2.5,
-      "interval_days": 1,
-      "repetitions": 0,
-      "next_review": "2026-03-05",
-      "last_score": null,
-      "bloom_level": "analyze"
-    },
-    {
-      "topic_id": "T041",
-      "concept": "4大変革モデル比較（Lewin/Kotter/Bridges/ADKAR）",
-      "ease_factor": 2.5,
-      "interval_days": 1,
-      "repetitions": 0,
-      "next_review": "2026-03-05",
-      "last_score": null,
-      "bloom_level": "remember"
-    },
-    {
-      "topic_id": "T041",
-      "concept": "変革管理の有無で目標達成率7倍差（93% vs 15%）",
-      "ease_factor": 2.5,
-      "interval_days": 1,
-      "repetitions": 0,
-      "next_review": "2026-03-05",
-      "last_score": null,
-      "bloom_level": "evaluate"
-    }
+    { "topic_id": "T032", "concept": "オーケストレーション4パターン（Supervisor/Hierarchical/P2P/Event-Driven）", "ease_factor": 2.5, "interval_days": 1, "repetitions": 0, "next_review": "2026-03-05", "last_score": null, "bloom_level": "remember" },
+    { "topic_id": "T032", "concept": "エージェントの3要素（知覚・推論・行動）と状態管理3層", "ease_factor": 2.5, "interval_days": 1, "repetitions": 0, "next_review": "2026-03-05", "last_score": null, "bloom_level": "understand" },
+    { "topic_id": "T032", "concept": "自律度スペクトラム（in/on/out-of-the-loop）と段階的移行", "ease_factor": 2.5, "interval_days": 1, "repetitions": 0, "next_review": "2026-03-05", "last_score": null, "bloom_level": "apply" },
+    { "topic_id": "T067", "concept": "ROI測定Three-Pillar Framework（財務/業務効率/戦略ポジション）", "ease_factor": 2.5, "interval_days": 1, "repetitions": 0, "next_review": "2026-03-05", "last_score": null, "bloom_level": "remember" },
+    { "topic_id": "T067", "concept": "AI投資成功率5% vs KPI達成率80%の構造的矛盾", "ease_factor": 2.5, "interval_days": 1, "repetitions": 0, "next_review": "2026-03-05", "last_score": null, "bloom_level": "analyze" },
+    { "topic_id": "T022", "concept": "両利きの3類型（構造的・文脈的・時間的）と設計原則", "ease_factor": 2.5, "interval_days": 1, "repetitions": 0, "next_review": "2026-03-05", "last_score": null, "bloom_level": "remember" },
+    { "topic_id": "T022", "concept": "探索と活用のテンション管理メカニズム", "ease_factor": 2.5, "interval_days": 1, "repetitions": 0, "next_review": "2026-03-05", "last_score": null, "bloom_level": "understand" },
+    { "topic_id": "T058", "concept": "人間-AI補完性の2源泉（情報非対称・能力非対称）", "ease_factor": 2.5, "interval_days": 1, "repetitions": 0, "next_review": "2026-03-05", "last_score": null, "bloom_level": "understand" },
+    { "topic_id": "T058", "concept": "AI協働の双刃の剣効果（生産性↑ × 内発的動機↓）", "ease_factor": 2.5, "interval_days": 1, "repetitions": 0, "next_review": "2026-03-05", "last_score": null, "bloom_level": "analyze" },
+    { "topic_id": "T041", "concept": "4大変革モデル比較（Lewin/Kotter/Bridges/ADKAR）", "ease_factor": 2.5, "interval_days": 1, "repetitions": 0, "next_review": "2026-03-05", "last_score": null, "bloom_level": "remember" },
+    { "topic_id": "T041", "concept": "変革管理の有無で目標達成率7倍差（93% vs 15%）", "ease_factor": 2.5, "interval_days": 1, "repetitions": 0, "next_review": "2026-03-05", "last_score": null, "bloom_level": "evaluate" },
+    { "topic_id": "T031", "concept": "Transformerアーキテクチャ（Attention/位置エンコーディング/MoE）", "ease_factor": 2.5, "interval_days": 1, "repetitions": 0, "next_review": "2026-03-05", "last_score": null, "bloom_level": "remember" },
+    { "topic_id": "T031", "concept": "スケーリング則（Kaplan/Chinchilla/Inference-time）", "ease_factor": 2.5, "interval_days": 1, "repetitions": 0, "next_review": "2026-03-05", "last_score": null, "bloom_level": "understand" },
+    { "topic_id": "T033", "concept": "RAG進化3段階（Naive→Advanced→Modular）", "ease_factor": 2.5, "interval_days": 1, "repetitions": 0, "next_review": "2026-03-05", "last_score": null, "bloom_level": "remember" },
+    { "topic_id": "T033", "concept": "チャンキング戦略とGraphRAG vs ベクトルRAG", "ease_factor": 2.5, "interval_days": 1, "repetitions": 0, "next_review": "2026-03-05", "last_score": null, "bloom_level": "apply" },
+    { "topic_id": "T034", "concept": "CoT/Few-shot/ReAct/DSPyの使い分け", "ease_factor": 2.5, "interval_days": 1, "repetitions": 0, "next_review": "2026-03-05", "last_score": null, "bloom_level": "apply" },
+    { "topic_id": "T037", "concept": "AI TRiSM 5コンポーネントとEU AI Act 4リスク層", "ease_factor": 2.5, "interval_days": 1, "repetitions": 0, "next_review": "2026-03-05", "last_score": null, "bloom_level": "remember" },
+    { "topic_id": "T021", "concept": "Sensing-Seizing-Transformingの三層構造", "ease_factor": 2.5, "interval_days": 1, "repetitions": 0, "next_review": "2026-03-05", "last_score": null, "bloom_level": "remember" },
+    { "topic_id": "T025", "concept": "DDDMの5層構造と逆因果問題", "ease_factor": 2.5, "interval_days": 1, "repetitions": 0, "next_review": "2026-03-05", "last_score": null, "bloom_level": "understand" },
+    { "topic_id": "T029", "concept": "Build-Measure-Learn + AI-Accelerated MVP", "ease_factor": 2.5, "interval_days": 1, "repetitions": 0, "next_review": "2026-03-05", "last_score": null, "bloom_level": "apply" },
+    { "topic_id": "T054", "concept": "Human-Centered AI 4原則（Augmentation/Transparency/Override/Equity）", "ease_factor": 2.5, "interval_days": 1, "repetitions": 0, "next_review": "2026-03-05", "last_score": null, "bloom_level": "remember" },
+    { "topic_id": "T068", "concept": "AI PMの構造的差異とデータフライホイール", "ease_factor": 2.5, "interval_days": 1, "repetitions": 0, "next_review": "2026-03-05", "last_score": null, "bloom_level": "understand" },
+    { "topic_id": "T071", "concept": "技術選定4フェーズとBuild vs Buy判断ロジック", "ease_factor": 2.5, "interval_days": 1, "repetitions": 0, "next_review": "2026-03-05", "last_score": null, "bloom_level": "apply" }
   ],
   "metacognition": { "total_checks": 0, "overconfident": 0, "calibration_trend": [] }
 }
