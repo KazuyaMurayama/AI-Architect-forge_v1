@@ -25,17 +25,17 @@
 
 | コマンド | 読むスキル | 概要 |
 |---------|-----------|------|
-| `/start` | `skills/01-onboarding.md` | 初回診断・プロファイル作成 |
-| `/topics` | `skills/02-topics.md` | トピック一覧・検索・フィルタ |
-| `/learn [ID]` | `skills/03-material-gen.md` | 教材生成（3ターン分割） |
-| `/review` | `skills/04-learning-engine.md` | 間隔反復・検索練習・インターリービング |
-| `/quiz [ID]` | `skills/04-learning-engine.md` | 特定トピックのテスト |
-| `/teach [ID]` | `skills/04-learning-engine.md` | プロテジェ効果セッション |
-| `/socratic [ID]` | `skills/04-learning-engine.md` | ソクラテス式対話 |
-| `/progress` | `skills/05-mastery-tracker.md` | 進捗確認・可視化 |
-| `/plan` | `skills/05-mastery-tracker.md` | 今週の学習プラン生成 |
-| `/session` | `skills/06-session-runner.md` | デイリー学習セッション実行 |
-| `/export` | `skills/05-mastery-tracker.md` | 進捗データのエクスポート |
+| `/start` | `pipeline/01-onboarding.md` | 初回診断・プロファイル作成 |
+| `/topics` | `pipeline/02-topics.md` | トピック一覧・検索・フィルタ |
+| `/learn [ID]` | `pipeline/03-material-gen.md` | 教材生成（3ターン分割） |
+| `/review` | `pipeline/04-learning-engine.md` | 間隔反復・検索練習・インターリービング |
+| `/quiz [ID]` | `pipeline/04-learning-engine.md` | 特定トピックのテスト |
+| `/teach [ID]` | `pipeline/04-learning-engine.md` | プロテジェ効果セッション |
+| `/socratic [ID]` | `pipeline/04-learning-engine.md` | ソクラテス式対話 |
+| `/progress` | `pipeline/05-mastery-tracker.md` | 進捗確認・可視化 |
+| `/plan` | `pipeline/05-mastery-tracker.md` | 今週の学習プラン生成 |
+| `/session` | `pipeline/06-session-runner.md` | デイリー学習セッション実行 |
+| `/export` | `pipeline/05-mastery-tracker.md` | 進捗データのエクスポート |
 
 スキルファイルが見つからない場合: 「スキルファイルが未作成です。`/setup` で初期化してください」と返答。
 
@@ -168,11 +168,11 @@ data/
 ## Skill 起動ルール（v2.0 / 2026-05-28）
 以下のスキルは **必須・スキップ禁止**。該当シーンでは SKILL.md を読んでから作業を開始すること。
 
-- **調査トピックを受け取ったら最初に必ず** `.claude/skills/research-deep/SKILL.md` を読み、手順に従って並列 Web リサーチを実行する
-- **複雑な多段タスクに着手する前に必ず** `.claude/skills/sp-writing-plans/SKILL.md` で計画を作成し、`.claude/skills/sp-executing-plans/SKILL.md` の手順で実行する
-- **レポート・ドキュメントに図表が必要な時は必ず** `.claude/skills/mermaid-agents365/SKILL.md` を読んでからダイアグラムを作成する
-- **アイデア出し・選択肢の洗い出しが必要な時は** `.claude/skills/sp-brainstorming/SKILL.md` を読んでから実施する
-- **成果物を納品・コミットする前に必ず** `.claude/skills/sp-verification-before-completion/SKILL.md` のチェックリストを実行する
+- **調査トピックを受け取ったら最初に必ず** `.claude/pipeline/research-deep/SKILL.md` を読み、手順に従って並列 Web リサーチを実行する
+- **複雑な多段タスクに着手する前に必ず** `.claude/pipeline/sp-writing-plans/SKILL.md` で計画を作成し、`.claude/pipeline/sp-executing-plans/SKILL.md` の手順で実行する
+- **レポート・ドキュメントに図表が必要な時は必ず** `.claude/pipeline/mermaid-agents365/SKILL.md` を読んでからダイアグラムを作成する
+- **アイデア出し・選択肢の洗い出しが必要な時は** `.claude/pipeline/sp-brainstorming/SKILL.md` を読んでから実施する
+- **成果物を納品・コミットする前に必ず** `.claude/pipeline/sp-verification-before-completion/SKILL.md` のチェックリストを実行する
 <!-- SKILLS_RULES_END -->
 
 <!-- GLOBAL_RULES_END -->
